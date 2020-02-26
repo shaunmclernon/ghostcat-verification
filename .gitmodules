@@ -1,0 +1,3 @@
+[submodule "AJPy"]
+	path = AJPy
+	url = https://github.com/hypn0s/AJPy.git
